@@ -5,13 +5,10 @@
 	<title>Blog Pipe Burbano</title>
 
 	<!-- referencia a boostrap -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-	<!-- referencia a jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
-	<!-- Referencia a Javascript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!--referencia awesome font -->
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 	<!-- referencia a el archivo CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -33,24 +30,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3 sidenav" id="col-izq">
-					<ul class="nav nav-pills nav-stacked">
-					  <li role="presentation"><a href="#">Programacion</a></li>
-					  <li role="presentation"><a href="#">Robotica</a></li>
-					  <li role="presentation"><a href="#">Mantenimiento</a></li>
+					<ul class="bd-links">
+					  <li class="bd-toc-item"><a href="#">Programacion</a></li>
+					  <li class="bd-toc-item"><a href="#">Robotica</a></li>
+					  <li class="bd-toc-item"><a href="#">Mantenimiento</a></li>
 					</ul>
 					<div class="input-group">
-					  <input type="text" class="form-control" placeholder="Buscar">
-					  <span class="input-group-addon glyphicon glyphicon-search" aria-hidden="true"></span>
+						<input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+						<span class="input-group-btn">
+							<button class="btn btn-secondary" type="button">Go!</button>
+						</span>
 					</div>
 				</div>
 
 				<div class="col-sm-9" id="col-der">
 					<ul class="list-group">
 						<li class="list-item-group">
-							<h4><small>Recent post</small></h4>
+							</br>
+							<h5 class="text-muted"><small>Recent post</small></h5>
 							<hr>
 							<a href="post.html"><h2>Titulo</h2></a>
-							<h4><small><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, May 27, 2017.</small></h4>
+							<h5 class="text-muted"><small>Post by Jane Dane, May 27, 2017.</small></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						</li>
 					</ul>
@@ -69,12 +69,13 @@
 
 
 
-	
-		<footer class="container-fluid text-center" id="pie">
-			<h4>© 2017 Andrés Felipe Burbano, Todos los Derechos Reservados</h3>
-		</footer>
+	<footer class="container-fluid text-center" id="pie">
+		<h4>© 2017 Andrés Felipe Burbano, Todos los Derechos Reservados</h4>
+	</footer>
 
-	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 </body>
 </html>

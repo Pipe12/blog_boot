@@ -4,6 +4,11 @@ body {
 	font-size: 16px;
 }
 
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
 #home {
 	height: 400px;
 	width: 100%;
@@ -34,10 +39,6 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #151516
-}
-
-#col-der ul {
-	list-style-type: none;
 }
 
 #pie {
